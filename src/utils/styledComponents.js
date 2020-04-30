@@ -51,3 +51,11 @@ export const IconTextSkeleton = styled.div`
     flex-wrap: nowrap;
 
 `
+
+export const ContactSkeleton = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+`

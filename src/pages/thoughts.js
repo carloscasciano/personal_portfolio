@@ -24,12 +24,13 @@ export default () => (
                     <p>{data.information}</p>
                   </IconTextSkeleton>
 
-                    {!data.link? "":<IconTextSkeleton >
-                    <img src={"../icons/external-link.png"}/>
-                    <a src={data.projectDemoLink}><p>Link to</p></a>
-                  </IconTextSkeleton>}
-
-                  
+                    {!data.link? "":
+                      <IconTextSkeleton >
+                        <img src={"../icons/external-link.png"}/>
+                        <a src={data.projectDemoLink}><p>Link to</p></a>
+                      </IconTextSkeleton>
+                    }
+      
                   <hr/>              
               </PositionSkeleton>
             )

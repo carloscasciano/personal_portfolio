@@ -153,7 +153,7 @@ export const portfolioData = [
 
 export const thoughtsData = [
     {
-        title: "testing, testing",
+        title: "Blog Post",
         date: "Mar 2020",
         type: "blog post",
         information: "lorem ipsum dolor",
@@ -161,10 +161,25 @@ export const thoughtsData = [
 
     },
     {
-        title: "testing, testing",
+        title: "Cool Link",
         date: "Mar 2020",
-        type: "blog post",
+        type: "resources",
         information: "lorem ipsum dolor, lorem ipsum dolor, lorem ipsum dolor,lorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ",
         link: "",
-    }
+    },
+    {
+        title: "Phrase",
+        date: "Feb 2020",
+        type: "feeling",
+        information: "lorem ipsum dolor, lorem ipsum dolor, lorem ipsum dolor,lorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ",
+        link: "wwewewewwv",
+    },
 ]
+
+export const contactData = 
+    {
+        email: "carlos.casciano@gmail.com",
+        phone: "+55 11 9.7267.7818",
+        linkedin: "https://www.linkedin.com/in/carloscasciano/",
+        github: "https://github.com/carloscasciano"
+    }
