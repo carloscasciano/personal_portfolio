@@ -3,7 +3,20 @@ import moragaTheme from 'typography-theme-moraga'
 
 moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
     'a, h2': {
-      margin: "10px",
+      margin: "0px",
+    },
+    'h2': {
+        fontWeight: "200"
+    },
+    'h4': {
+        fontSize: "1.2rem",
+        marginBottom: "1rem",
+        marginTop: "1rem",
+        textAlign: "center",
+    },
+    'h5': {
+        fontWeight: "600",
+        marginBottom: "2px"
     },
     'p': {
         fontSize: "0.8em",
@@ -12,23 +25,25 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
     'strong': {
         fontWeight: "600"
     },
+    'ul': {
+        marginBottom: "5px"
+    },
     'li': {
         fontSize: "0.7em",
         margin: 0,
         listStyleType: "none"
     },
-    'ul': {
-        marginBottom: "5px"
+    'hr': {
+        width: "100%",
+        margin: "15px auto 15px auto",
     },
-    'h4': {
-        fontSize: "1.2rem",
-        marginBottom: "1rem",
-        marginTop: "1rem",
-        textAlign: "center",
-    },
-    'h2': {
-        fontWeight: "200"
+    'img': {
+        height: "18px",
+        margin: "5px"
     }
+
+
+
   })
 
 

@@ -41,3 +41,11 @@ export const BlockSkeleton = styled.div`
     justify-content: flex-start;
     align-content: flex-start;
 `
+
+export const IconTextSkeleton = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+`

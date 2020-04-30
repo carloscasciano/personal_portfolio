@@ -1,4 +1,4 @@
-const siteData = [
+export const siteData = [
     [
         {
             position: "Technology Consultant / Freelance",
@@ -119,5 +119,33 @@ const siteData = [
     ]
 ]
 
-
-export default siteData
+export const portfolioData = [
+    {
+        projectName: "Blob",
+        projectMainInfo: "This project was made for blobbing purposes",
+        projectTech: "React, Styled Components",
+        projectDemoLink: "www.twitter.com",
+        projectGitHubLink: "www.github.com/aaa"
+    }, 
+    {
+        projectName: "Blob2",
+        projectMainInfo: "This project was made for blobbing 2 purposes",
+        projectTech: "React, CSS",
+        projectDemoLink: "www.twitter.com",
+        projectGitHubLink: "www.github.com/aaa"
+    }, 
+    {
+        projectName: "Blob3",
+        projectMainInfo: "This project was made for blobbing 3 purposes",
+        projectTech: "HTML, CSS",
+        projectDemoLink: "www.twitter.com",
+        projectGitHubLink: "www.github.com/aaa"
+    }, 
+    {
+        projectName: "Blob4",
+        projectMainInfo: "This project was made for blobbing 3 purposes",
+        projectTech: "HTML, CSS",
+        projectDemoLink: "www.twitter.com",
+        projectGitHubLink: "www.github.com/aaa"
+    }, 
+]

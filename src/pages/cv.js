@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "./components/Header"
-import siteData from "../siteData/data"
+import { siteData } from "../siteData/data"
 import { PageMainSkeleton, PositionSkeleton, BlockSkeleton } from "../utils/styledComponents"
 
 
