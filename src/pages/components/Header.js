@@ -17,7 +17,6 @@ export default function Header() {
                 </HeaderLinksSkeleton>
             </HeaderMainSkeleton>
             <hr/>
-            
         </div>
     )
 }

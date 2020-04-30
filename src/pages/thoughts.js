@@ -1,13 +1,14 @@
 import React from "react"
 import { thoughtsData } from "../siteData/data"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 import { PageMainSkeleton, PositionSkeleton, BlockSkeleton, IconTextSkeleton } from "../utils/styledComponents"
 
 export default () => (
   <div>
     <Header/>
     <PageMainSkeleton>
-      <h4>Thoughts, Feelings, Friendly Links & Friends</h4>
+      <h4>Thoughts, Feelings, Friendly Links & Others</h4>
 
       <BlockSkeleton>
         {
@@ -38,5 +39,6 @@ export default () => (
       </BlockSkeleton>
 
     </PageMainSkeleton>
+    <Footer />
   </div>
 )

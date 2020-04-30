@@ -1,5 +1,6 @@
 import React from "react"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 import { siteData } from "../siteData/data"
 import { PageMainSkeleton, PositionSkeleton, BlockSkeleton } from "../utils/styledComponents"
 
@@ -32,7 +33,7 @@ export default () => (
 
 {/*  */}
 
-      <h4>What I am familiar with</h4>
+      <h4>What I'm familiar with</h4>
 
       <BlockSkeleton>
       {
@@ -72,6 +73,8 @@ export default () => (
       </BlockSkeleton>
 
     </PageMainSkeleton>
+
+    <Footer/>
   </div>
 )
 

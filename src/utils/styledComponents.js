@@ -10,6 +10,15 @@ export const HeaderMainSkeleton = styled.div`
     justify-content: space-around;
     align-items: center;
     align-content: flex-start;
+
+    h2 {
+        margin: 15px;
+    }
+
+    a {
+        margin: 0 10px 0 10px;
+    }
+
 `
 
 export const HeaderLinksSkeleton = styled.div`
@@ -20,7 +29,7 @@ export const HeaderLinksSkeleton = styled.div`
 
 export const PageMainSkeleton = styled.div`
     margin: 0 auto;
-    width: 60%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -33,6 +42,12 @@ export const PositionSkeleton = styled.div`
     align-items: center;
     justify-content: flex-start;
     align-items: flex-start;
+    
+
+    hr {
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
 `
 
 export const BlockSkeleton = styled.div`
@@ -55,7 +70,31 @@ export const IconTextSkeleton = styled.div`
 export const ContactSkeleton = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+
+
+`
+
+export const ContactCardSkeleton = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+
+`
+
+export const FooterSkeleton = styled.div`
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
+
+    hr{
+        margin-top: 100px;
+        margin-bottom: 25px;
+    }
+
 
 `

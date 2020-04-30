@@ -34,8 +34,9 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
         listStyleType: "none"
     },
     'hr': {
-        width: "100%",
-        margin: "15px auto 15px auto",
+        margin: "0 auto 0 auto",
+        width: "80%",
+        
     },
     'img': {
         height: "18px",

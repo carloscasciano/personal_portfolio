@@ -1,6 +1,7 @@
 import React from "react"
 import { portfolioData } from "../siteData/data"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 import { PageMainSkeleton, PositionSkeleton, BlockSkeleton, IconTextSkeleton } from "../utils/styledComponents"
 
@@ -38,5 +39,7 @@ export default () => (
       </BlockSkeleton>
 
     </PageMainSkeleton>
+
+    <Footer />
   </div>
 )
