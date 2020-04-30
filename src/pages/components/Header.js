@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
-import {HeaderMainSkeleton, HeaderLinksSkeleton} from "../../utils/styledComponents"
+import { HeaderMainSkeleton, HeaderLinksSkeleton } from "../../utils/styledComponents"
 
 
 export default function Header() {
@@ -9,7 +9,7 @@ export default function Header() {
             <HeaderMainSkeleton>
                 <h2>Carlos Casciano</h2>
                 <HeaderLinksSkeleton>
-                    <Link to="/cv/">CV</Link>
+                    <Link to="/cv/">Resume</Link>
                     <br/>
                     <Link to="/portfolio/">Portfolio</Link>
                     <Link to="/thoughts/">Thoughts & Feelings</Link>

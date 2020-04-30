@@ -149,3 +149,22 @@ export const portfolioData = [
         projectGitHubLink: "www.github.com/aaa"
     }, 
 ]
+
+
+export const thoughtsData = [
+    {
+        title: "testing, testing",
+        date: "Mar 2020",
+        type: "blog post",
+        information: "lorem ipsum dolor",
+        link: "www.google.com",
+
+    },
+    {
+        title: "testing, testing",
+        date: "Mar 2020",
+        type: "blog post",
+        information: "lorem ipsum dolor, lorem ipsum dolor, lorem ipsum dolor,lorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ",
+        link: "",
+    }
+]
