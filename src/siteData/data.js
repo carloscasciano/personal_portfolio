@@ -1,65 +1,72 @@
 export const siteData = [
     [
         {
-            position: "Technology Consultant / Freelance",
-            date: "2020 - current",
-            company: "self-employed",
+            position: "Independent Consultant / Developer",
+            date: "2020",
+            company: "self",
             companyLink: "",
             perks: [
-                "Leader for 16 developers and analysts",
-                "Projects with Python and Node",
-                "Expertise with Kanban and Agile",
+                "Code on top technologies to deliver good products and applications.",
+                "Provide solutions to companies based on years of experience in different fields.",
             ]
         },
         {
-            position: "Technology & Operations Manager",
+            position: "Technology / Operations Manager",
             date: "2017 - 2020",
             company: "ContaAzul",
             companyLink: "www.contaazul.com",
             perks: [
-                "Lorem Ipsum Dolor",
-                "Lorem Ipsum Dolor",
-                "Lorem Ipsum Dolor",
-
+                "Led analysts and developers on internal products development and decisions.",
+                "Worked as mentor for data analysis, problem solving and leadership.",
+                "Delivered solutions that significantly increased customer engagement and adoption.",
             ]
         },
         {
-            position: "Technology Consultant",
-            date: "2016 - 2016",
-            company: "self-employed",
+            position: "Independent Consultant / Developer",
+            date: "2016",
+            company: "self",
             companyLink: "",
             perks: [
-                "Lorem Ipsum Dolor",
-                "Lorem Ipsum Dolor",
-                "Lorem Ipsum Dolor",
-
+                "Developed web applications to improve processes and decision making for SMBs.",
+                "Connected vital information via data integrations.",
+                "Managed projects, from idealization to execution."
             ]
         },
         {
-            position: "Technology Consultant",
-            date: "2016 - 2016",
+            position: "Operations / Product Manager",
+            date: "2013 - 2015",
             company: "Runrun.it",
-            companyLink: "",
+            companyLink: "www.runrun.it",
             perks: [
-                "Lorem Ipsum Dolor",
-                "Lorem Ipsum Dolor",
-                "Lorem Ipsum Dolor",
+                "Worked as customer voice for product decisions, outstanding results on growth and retention.",
+                "Built all CRM architecture, processes and integrations.",
+                "Wrote several articles and courses regarding plataform content.",
 
+            ]
+        },
+        {
+            position: "Product Analyst",
+            date: "2011 - 2013",
+            company: "P&G Gillette",
+            companyLink: "www.gillette.com",
+            perks: [
+                "Managed different digital marketing campaigns with advertising agencies.",
+                "Participated in multi million views ads."
             ]
         },
     ],
     [
         {
-            skillTitle: "Languages",
-            skillSet: ["JavaScript, Python, Node.js, SQL, Saas, HTML, CSS" ]
+            skillTitle: "Tech Stack",
+            skillSet: ["JavaScript, React, Node.js, Express, REST, Gatsby, GraphQL, Git, SQL, HTML, CSS, Saas, Python."]
         },
         {
-            skillTitle: "Front-end",
-            skillSet: ["React, Redux" ]
+            skillTitle: "Management & Software Development",
+            skillSet: ["Business, Data Analysis, Agile, Kanban, Product Management, Design Patterns, UX/UI, CX." ]
         },
         {
-            skillTitle: "Languages",
-            skillSet: ["JavaScript, Python, Node.js, SQL, Saas, HTML, CSS" ]
+            skillTitle: "Soft Skills",
+            skillSet: ["Problem Solving, Team Building, Creativity, Leadership, Communication, Organization, Delegation." ]
         },
     ],
     [
@@ -69,7 +76,7 @@ export const siteData = [
             date: "2009-2013"
         },
         {
-            school: "Bentley Univesrsity - Boston MA",
+            school: "Bentley University, Boston MA",
             course: "Digital Technologies Specialization",
             date: "2011"
         },
@@ -85,24 +92,21 @@ export const siteData = [
             course: "FullStackOpen"
         },
         {
+            school: "Aspercom",
+            course: "Kanban KMP"
+        },
+        {
             school: "FreeCodeCamp",
             course: "JavaScript Algorithms and Data Structures"
         },
         {
             school: "RocketSeat",
-            course: "JavaScript Algorithms and Data Structures"
+            course: "Omni Stack Week"
         },
-        {
-            school: "Aspercom",
-            course: "Kanban KMP I"
-        },
+
         {
             school: "Udacity",
             course: "Nanodegree Data Science"
-        },
-        {
-            school: "Aspercom",
-            course: "Kanban KMP I"
         },
         {
             school: "Udemy",
@@ -121,59 +125,116 @@ export const siteData = [
 
 export const portfolioData = [
     {
-        projectName: "Blob",
-        projectMainInfo: "This project was made for blobbing purposes",
+        projectName: "Personal Portfolio",
+        projectMainInfo: "This website!",
+        projectTech: "React, Gatsby, Typograhy.js, Styled Components",
+        projectDemoLink: "",
+        projectGitHubLink: ""
+    }, 
+    {
+        projectName: "Building Custom Components",
+        projectMainInfo: "Tutorial on how to create custom components from paper (or design based) to be re-used the way your needs desires. Link for tutorial on github.",
         projectTech: "React, Styled Components",
-        projectDemoLink: "www.twitter.com",
-        projectGitHubLink: "www.github.com/aaa"
+        projectDemoLink: "https://ccasci-custom-components.netlify.app/",
+        projectGitHubLink: "https://github.com/carloscasciano/building_custom_components_react"
     }, 
     {
-        projectName: "Blob2",
-        projectMainInfo: "This project was made for blobbing 2 purposes",
-        projectTech: "React, CSS",
-        projectDemoLink: "www.twitter.com",
-        projectGitHubLink: "www.github.com/aaa"
+        projectName: "Clicker Game Redux",
+        projectMainInfo: "To explain the benefits (and cons) of Redux, built and wrote a tutorial on working with flow architecture.",
+        projectTech: "React, Redux, Styled Components",
+        projectDemoLink: "https://roman-empire-react-redux.netlify.app/",
+        projectGitHubLink: "https://github.com/carloscasciano/react_redux_clicker"
     }, 
     {
-        projectName: "Blob3",
-        projectMainInfo: "This project was made for blobbing 3 purposes",
-        projectTech: "HTML, CSS",
-        projectDemoLink: "www.twitter.com",
-        projectGitHubLink: "www.github.com/aaa"
+        projectName: "Formula 1 Standings",
+        projectMainInfo: "Web app to show Formula 1 information regarding championships, drivers and constructors. Plus last F1 tweets! ",
+        projectTech: "React, Axios, Moment, Material UI",
+        projectDemoLink: "https://ccasci-formula1-app.netlify.app/",
+        projectGitHubLink: "https://github.com/carloscasciano/f1_standings_app"
     }, 
     {
-        projectName: "Blob4",
-        projectMainInfo: "This project was made for blobbing 3 purposes",
-        projectTech: "HTML, CSS",
-        projectDemoLink: "www.twitter.com",
-        projectGitHubLink: "www.github.com/aaa"
+        projectName: "Formula 1 Server",
+        projectMainInfo: "Created a server to host drivers and constructors images for F1 app.",
+        projectTech: "Node, React, Express, Cors",
+        projectDemoLink: "https://ccasci-formula1-app.netlify.app/",
+        projectGitHubLink: "https://github.com/carloscasciano/f1_assets_server"
+    }, 
+    {
+        projectName: "Password Generator",
+        projectMainInfo: "A simple web app to generate passwords and calculate its strenght.",
+        projectTech: "React",
+        projectDemoLink: "https://ccasci-passwordgeneratorreact.netlify.app/",
+        projectGitHubLink: "https://github.com/carloscasciano/password_generator_react"
+    }, 
+    {
+        projectName: "Dungeons & Dragons NPM Dice Package",
+        projectMainInfo: "A NPM package to roll many different kinds of dice sets in other projects.",
+        projectTech: "Node, React, Express, Cors",
+        projectDemoLink: "https://www.npmjs.com/package/dnd-dice-complete-set",
+        projectGitHubLink: "https://github.com/carloscasciano/dnd-dice-complete-set"
     }, 
 ]
 
 
 export const thoughtsData = [
     {
-        title: "Blog Post",
-        date: "Mar 2020",
+        title: "Building Custom Components from scratch with React + Styled Components",
+        date: "Apr 2020",
         type: "blog post",
-        information: "lorem ipsum dolor",
-        link: "www.google.com",
+        information: "A tutorial I wrote on the process of building and using custom components",
+        link: "https://medium.com/@carlos.casciano/building-custom-components-from-scratch-with-react-styled-components-f878dd9c462e",
 
     },
     {
-        title: "Cool Link",
-        date: "Mar 2020",
+        title: "Repl.it",
+        date: "Apr 2020",
         type: "resources",
-        information: "lorem ipsum dolor, lorem ipsum dolor, lorem ipsum dolor,lorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ",
-        link: "",
+        information: "Web based site to compile different languages.",
+        link: "https://repl.it/languages",
     },
     {
-        title: "Phrase",
-        date: "Feb 2020",
-        type: "feeling",
-        information: "lorem ipsum dolor, lorem ipsum dolor, lorem ipsum dolor,lorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor ",
-        link: "wwewewewwv",
+        title: "Clicker Game + Redux",
+        date: "Apr 2020",
+        type: "blog post",
+        information: "Redux tutorial I wrote.",
+        link: "https://medium.com/@carlos.casciano/clicker-game-project-with-react-and-redux-9c6c9d169579",
     },
+    {
+        title: "CSS Flex Cheat Sheet",
+        date: "Mar 2020",
+        type: "resources",
+        information: "I've been using this cheat sheet a lot, it is pretty good, specially the auto copy for code.",
+        link: "http://flexbox.malven.co/",
+    },
+    {
+        title: "About DOM Manipulation",
+        date: "Mar 2020",
+        type: "resources",
+        information: "Methods for DOM manipulation, useful.",
+        link: "https://www.hongkiat.com/blog/dom-manipulation-javascript-methods/",
+    },
+    {
+        title: "Firebase + React authentication",
+        date: "Feb 2020",
+        type: "video",
+        information: "Best tutorial I've found on React + Firebase authentication, used a lot of it in a project.",
+        link: "https://www.youtube.com/watch?v=unr4s3jd9qA",
+    },
+    {
+        title: "Remote Work and Productivity",
+        date: "Feb 2020",
+        type: "article",
+        information: "Good article on remote work.",
+        link: "https://doist.com/blog/asynchronous-communication/",
+    },
+    {
+        title: "Modern JS",
+        date: "Jan 2020",
+        type: "article collection",
+        information: "Great source for basic and modern JS.",
+        link: "https://javascript.info/",
+    },
+    
 ]
 
 export const contactData = 
@@ -187,5 +248,9 @@ export const contactData =
 
 export const bioData = 
     {
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et risus hendrerit, condimentum urna ac, feugiat odio. Nullam id auctor sapien. Vivamus iaculis, magna sed ornare pulvinar, tortor ex ullamcorper purus, id condimentum risus turpis eget elit. Mauris varius malesuada auctor. Donec id finibus nisl, quis pulvinar mauris. Ut ipsum ipsum, euismod vitae convallis id, pretium in augue. Etiam tincidunt facilisis euismod. Cras rutrum hendrerit est vitae pharetra. Duis eget ante malesuada, convallis quam eget, hendrerit turpis. Pellentesque fringilla odio tortor, eu venenatis lacus fermentum et. Praesent volutpat purus orci, eget auctor nunc venenatis interdum. Maecenas ut ligula nec libero interdum laoreet."
+        bioCatchPhrase: 'The soul becomes dyed with the color of its thoughts.',
+        bioAuthor: 'Marcus Aurelius',
+        bioP1: `I've been working in tech companies for a while. Always living in intersections, started with art, passed through business, marketing, product management, data and software development.`,
+        bioP2: `Worked with lots of problems with different levels of complexity. Have experience with start-ups, scale-ups and giant/mature companies. `,
+        bioP3: `What makes me glad is helping people, coding and solving problems, so right now I am looking for remote positions as software developer. If you think I could help you, let's have a virtual coffee!`
     }

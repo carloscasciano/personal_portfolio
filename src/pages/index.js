@@ -11,7 +11,14 @@ export default () =>
         <PageMainSkeleton>
             <BlockSkeleton>
                 <h4>Bio</h4>
-                <p>{bioData.bio}</p>
+                <p><i>"{bioData.bioCatchPhrase}"</i></p>
+                <p>{bioData.bioAuthor} </p>
+                <br/>
+                <p>{bioData.bioP1}</p>
+                <br/>
+                <p>{bioData.bioP2}</p>
+                <br/>
+                <p>{bioData.bioP3}</p>
 
             </BlockSkeleton>
         
