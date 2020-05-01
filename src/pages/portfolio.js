@@ -26,11 +26,11 @@ export default () => (
                   </IconTextSkeleton>
                   <IconTextSkeleton>
                     <img src={"../icons/external-link.png"}/>
-                    <a src={data.projectDemoLink}><p>Demo</p></a>
+                    <a href={data.projectDemoLink} target="_blank"><p>Demo</p></a>
                   </IconTextSkeleton>
                   <IconTextSkeleton>
                     <img src={"../icons/github.png"}/>
-                    <a src={data.projectDemoLink}><p>Code</p></a>
+                    <a href={data.projectGitHubLink} target="_blank"><p>Code</p></a>
                   </IconTextSkeleton>
                   <hr/>              
               </PositionSkeleton>

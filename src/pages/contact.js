@@ -23,11 +23,11 @@ export default () => (
         </IconTextSkeleton>
         <IconTextSkeleton>
           <img src={"../icons/linkedin.png"}/>
-          <a src={contactData.linkedin}><p>/carloscasciano</p></a>
+          <a href={contactData.linkedin} target="_blank"><p>/carloscasciano</p></a>
         </IconTextSkeleton>
         <IconTextSkeleton>
           <img src={"../icons/github.png"}/>
-          <a src={contactData.github}><p>/carloscasciano</p></a>
+          <a href={contactData.github} target="_blank"><p>/carloscasciano</p></a>
         </IconTextSkeleton>
       </ContactSkeleton>
     </ContactCardSkeleton>

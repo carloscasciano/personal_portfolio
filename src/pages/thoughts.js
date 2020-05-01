@@ -28,7 +28,7 @@ export default () => (
                     {!data.link? "":
                       <IconTextSkeleton >
                         <img src={"../icons/external-link.png"}/>
-                        <a src={data.projectDemoLink}><p>Link to</p></a>
+                        <a href={data.link} target="_blank"><p>Link to</p></a>
                       </IconTextSkeleton>
                     }
       
