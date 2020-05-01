@@ -35,7 +35,7 @@ export const HeaderLinksSkeleton = styled.div`
     align-items: center;
 
     a {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     @media (min-width: 415px) {

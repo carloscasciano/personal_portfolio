@@ -183,3 +183,9 @@ export const contactData =
         linkedin: "https://www.linkedin.com/in/carloscasciano/",
         github: "https://github.com/carloscasciano"
     }
+
+
+export const bioData = 
+    {
+        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et risus hendrerit, condimentum urna ac, feugiat odio. Nullam id auctor sapien. Vivamus iaculis, magna sed ornare pulvinar, tortor ex ullamcorper purus, id condimentum risus turpis eget elit. Mauris varius malesuada auctor. Donec id finibus nisl, quis pulvinar mauris. Ut ipsum ipsum, euismod vitae convallis id, pretium in augue. Etiam tincidunt facilisis euismod. Cras rutrum hendrerit est vitae pharetra. Duis eget ante malesuada, convallis quam eget, hendrerit turpis. Pellentesque fringilla odio tortor, eu venenatis lacus fermentum et. Praesent volutpat purus orci, eget auctor nunc venenatis interdum. Maecenas ut ligula nec libero interdum laoreet."
+    }
