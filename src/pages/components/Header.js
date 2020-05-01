@@ -10,7 +10,6 @@ export default function Header() {
                 <h2>Carlos Casciano</h2>
                 <HeaderLinksSkeleton>
                     <Link to="/cv/">Resume</Link>
-                    <br/>
                     <Link to="/portfolio/">Portfolio</Link>
                     <Link to="/thoughts/">Thoughts & Feelings</Link>
                     <Link to="/contact/">Contact</Link>

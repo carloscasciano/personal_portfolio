@@ -10,7 +10,7 @@ export default function Footer() {
                     <hr/>
                     <IconTextSkeleton>
                         <img src={"../icons/globe.png"}/>
-                        <p>Brazil, World - 2020</p>
+                        <p>Brazil, Earth - 2020</p>
                     </IconTextSkeleton>
                 </FooterSkeleton>     
             <hr/>

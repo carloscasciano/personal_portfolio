@@ -6,33 +6,53 @@ import styled from 'styled-components'
 export const HeaderMainSkeleton = styled.div`
     
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     align-content: flex-start;
-
-    h2 {
-        margin: 15px;
-    }
+    margin: 15px auto 5px auto;
 
     a {
         margin: 0 10px 0 10px;
     }
 
+    @media (min-width: 415px) {
+        flex-direction: row;
+
+        h2 {
+            margin: 15px;
+        }
+
+      }
+
 `
 
 export const HeaderLinksSkeleton = styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
+    align-items: center;
+
+    a {
+        font-size: 0.8rem;
+    }
+
+    @media (min-width: 415px) {
+        flex-direction: row;       
+      }
 `
 
 export const PageMainSkeleton = styled.div`
     margin: 0 auto;
-    width: 40%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+
+    @media (min-width: 415px) {
+        width: 50%;
+      }
     
 `
 
@@ -77,10 +97,14 @@ export const ContactSkeleton = styled.div`
 
 export const ContactCardSkeleton = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     align-content: center;
     justify-content: space-around;
+
+    @media (min-width: 415px) {
+        flex-direction: row;
+      }
 
 `
 
