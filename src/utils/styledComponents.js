@@ -91,7 +91,7 @@ export const ContactSkeleton = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
+    margin-left: 33px;
 
 `
 
@@ -100,14 +100,13 @@ export const ContactCardSkeleton = styled.div`
     flex-direction: column-reverse;
     align-items: center;
     align-content: center;
-    justify-content: space-around;
+    justify-content: center;
 
     @media (min-width: 415px) {
         flex-direction: row;
       }
 
 `
-
 export const FooterSkeleton = styled.div`
     display: flex;
     flex-direction: column;
