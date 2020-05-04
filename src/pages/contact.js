@@ -3,7 +3,7 @@ import { contactData } from "../siteData/data"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 
-import { PageMainSkeleton, PositionSkeleton, BlockSkeleton, IconTextSkeleton, ContactSkeleton, ContactCardSkeleton } from "../utils/styledComponents"
+import { PageMainSkeleton, IconTextSkeleton, ContactSkeleton, ContactCardSkeleton } from "../utils/styledComponents"
 
 export default () => (
   <div>

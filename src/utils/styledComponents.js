@@ -125,5 +125,11 @@ export const FooterSkeleton = styled.div`
         margin-bottom: 25px;
     }
 
+`
 
+export const Error404Skeleton = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `
