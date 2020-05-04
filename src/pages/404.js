@@ -13,7 +13,7 @@ export default () => (
 
         <Error404Skeleton>
             
-            <img src={"../pictures/404.png"} style={{height: "240px", marginTop: "20px", borderRadius: "10px"}}></img>  
+            <img src={"../pictures/404.png"} style={{height: "240px", marginTop: "20px", borderRadius: "10px"}} alt="404 dog"></img>  
             <p>No page, but a cute dog in an old vase instead.</p>
             
                

@@ -17,18 +17,18 @@ export default () => (
                 <h5>{data.title}</h5>
                 <p>{data.type}</p>
                   <IconTextSkeleton>
-                    <img src={"../icons/calendar.png"}/>
+                    <img src={"../icons/calendar.png"} alt="date"/>
                     <p>{data.date}</p>
                   </IconTextSkeleton>
                   <IconTextSkeleton>
-                    <img src={"../icons/info.png"}/>
+                    <img src={"../icons/info.png"} alt="information"/>
                     <p>{data.information}</p>
                   </IconTextSkeleton>
 
                     {!data.link? "":
                       <IconTextSkeleton >
-                        <img src={"../icons/external-link.png"}/>
-                        <a href={data.link} target="_blank"><p>Link to</p></a>
+                        <img src={"../icons/external-link.png"} alt="external link"/>
+                        <a href={data.link} target="_blank" rel="noopener noreferrer"><p>Link to</p></a>
                       </IconTextSkeleton>
                     }
       

@@ -17,20 +17,20 @@ export default () => (
               <PositionSkeleton key={Math.random()}>
                 <h5>{data.projectName}</h5>
                   <IconTextSkeleton>
-                    <img src={"../icons/info.png"}/>
+                    <img src={"../icons/info.png"} alt="info"/>
                     <p>{data.projectMainInfo}</p>
                   </IconTextSkeleton>
                   <IconTextSkeleton>
-                    <img src={"../icons/code.png"}/>
+                    <img src={"../icons/code.png"} alt="code"/>
                     <p>{data.projectTech}</p>
                   </IconTextSkeleton>
                   <IconTextSkeleton>
-                    <img src={"../icons/external-link.png"}/>
-                    <a href={data.projectDemoLink} target="_blank"><p>Demo</p></a>
+                    <img src={"../icons/external-link.png"} alt="external link"/>
+                    <a href={data.projectDemoLink} target="_blank" rel="noopener noreferrer"><p>Demo</p></a>
                   </IconTextSkeleton>
                   <IconTextSkeleton>
-                    <img src={"../icons/github.png"}/>
-                    <a href={data.projectGitHubLink} target="_blank"><p>Code</p></a>
+                    <img src={"../icons/github.png"} alt="github"/>
+                    <a href={data.projectGitHubLink} target="_blank" rel="noopener noreferrer"><p>Code</p></a>
                   </IconTextSkeleton>
                   <hr/>              
               </PositionSkeleton>

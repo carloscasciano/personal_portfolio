@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "gatsby"
 import { FooterSkeleton, IconTextSkeleton } from "../../utils/styledComponents"
 
 
@@ -9,7 +8,7 @@ export default function Footer() {
                 <FooterSkeleton>
                     <hr/>
                     <IconTextSkeleton>
-                        <img src={"../icons/globe.png"}/>
+                        <img src={"../icons/globe.png"} alt=""/>
                         <p>Brazil, Earth - 2020</p>
                     </IconTextSkeleton>
                 </FooterSkeleton>     
