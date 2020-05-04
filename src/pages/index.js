@@ -2,7 +2,7 @@ import React from "react"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import { bioData } from "../siteData/data"
-import { BlockSkeleton, PageMainSkeleton, QuoteSkeleton } from "../utils/styledComponents"
+import { BlockSkeleton, PageMainSkeleton, QuoteSkeleton} from "../utils/styledComponents"
 
 export default () => 
     <div>
@@ -28,7 +28,6 @@ export default () =>
                     <p>{bioData.bioAuthor} </p>
                 </QuoteSkeleton>
                 
-               
 
             </BlockSkeleton>
         

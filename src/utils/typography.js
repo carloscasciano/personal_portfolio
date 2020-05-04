@@ -37,7 +37,7 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
     'li': {
         fontSize: "1rem",
         margin: 0,
-        listStyleType: "none"
+        listStyleType: "circle"
     },
     'hr': {
         margin: "0 auto 0 auto",
