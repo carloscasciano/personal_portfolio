@@ -47,6 +47,10 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
     'img': {
         height: "18px",
         margin: "5px"
+    },
+    'i': {
+        textAlign: "justify",
+
     }
 
   })

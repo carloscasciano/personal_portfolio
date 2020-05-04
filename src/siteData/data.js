@@ -251,7 +251,7 @@ export const bioData =
         bioCatchPhrase: 'The soul becomes dyed with the color of its thoughts.',
         bioAuthor: 'Marcus Aurelius',
         bioP1: `Hi, I'm Carlos. Right now I'm focused on personal projects and looking for remote positions as software developer.`,
-        bioP2: `I've been working in tech companies for a while. Always living in intersections, have some experience in everything from data analysis and software development to business, product management and art.`,
+        bioP2: `I've been working in tech companies for a while. Always living in intersections, I have some experience in everything from data analysis and software development to business, product management and art.`,
         bioP3: `In other times I developed and designed solutions for small and medium companies, managed teams of different scopes, started a company, and dealt with problems of different sizes and complexity.`,
         bioP4: `What makes me glad is helping people, coding and solving problems. If you think I could help you, let's have a virtual coffee!`
     }
