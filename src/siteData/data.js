@@ -27,7 +27,7 @@ export const siteData = [
             company: "self",
             companyLink: "",
             perks: [
-                "Developed web applications to improve processes and decision making for SMBs.",
+                "Developed web applications to improve processes and decision making for small and medium companies.",
                 "Connected vital information via data integrations.",
                 "Managed projects, from idealization to execution."
             ]
@@ -51,7 +51,7 @@ export const siteData = [
             companyLink: "www.gillette.com",
             perks: [
                 "Managed different digital marketing campaigns with advertising agencies.",
-                "Participated in multi million views ads."
+                "Participated actively in multi million views ads."
             ]
         },
     ],
@@ -250,7 +250,8 @@ export const bioData =
     {
         bioCatchPhrase: 'The soul becomes dyed with the color of its thoughts.',
         bioAuthor: 'Marcus Aurelius',
-        bioP1: `I've been working in tech companies for a while. Always living in intersections, started with art, passed through business, marketing, product management, data and software development.`,
-        bioP2: `Worked with lots of problems with different levels of complexity. Have experience with start-ups, scale-ups and giant/mature companies. `,
-        bioP3: `What makes me glad is helping people, coding and solving problems, so right now I am looking for remote positions as software developer. If you think I could help you, let's have a virtual coffee!`
+        bioP1: `Hi, I'm Carlos. Right now I'm focused on personal projects and looking for remote positions as software developer.`,
+        bioP2: `I've been working in tech companies for a while. Always living in intersections, have some experience in everything from art, through business, marketing, product management, data analysis and software development.`,
+        bioP3: `In other times I developed and designed solutions for small and medium companies, managed teams of different scopes, started a company, and dealt with problems of different sizes and complexity.`,
+        bioP4: `What makes me glad is helping people, coding and solving problems. If you think I could help you, let's have a virtual coffee!`
     }

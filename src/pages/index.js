@@ -21,6 +21,8 @@ export default () =>
                 <p>{bioData.bioP2}</p>
                 <br/>
                 <p>{bioData.bioP3}</p>
+                <br/>
+                <p>{bioData.bioP4}</p>
 
             </BlockSkeleton>
         

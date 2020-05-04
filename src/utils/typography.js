@@ -9,17 +9,18 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
         fontWeight: "200"
     },
     'h4': {
-        fontSize: "1.2rem",
+        fontSize: "1.8rem",
         marginBottom: "1rem",
         marginTop: "1rem",
         textAlign: "center",
     },
     'h5': {
+        fontSize: "1.1rem",
         fontWeight: "600",
         marginBottom: "2px"
     },
     'p': {
-        fontSize: "0.8em",
+        fontSize: "1rem",
         marginBottom: "0.1rem"
     },
     'strong': {
@@ -29,7 +30,7 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
         marginBottom: "5px"
     },
     'li': {
-        fontSize: "0.7em",
+        fontSize: "1rem",
         margin: 0,
         listStyleType: "none"
     },
