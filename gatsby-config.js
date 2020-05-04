@@ -6,6 +6,12 @@
 
 module.exports = {
   /* Your site config here */
+
+  siteMetadata: {
+    title: `Carlos Casciano`,
+    description: `Carlos Casciano portfolio`,
+  },
+
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
