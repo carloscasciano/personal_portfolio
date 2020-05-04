@@ -33,6 +33,7 @@ export const HeaderLinksSkeleton = styled.div`
     justify-content: center;
     align-content: center;
     align-items: center;
+    margin-top: 10px;
 
     a {
         font-size: 0.8rem;
