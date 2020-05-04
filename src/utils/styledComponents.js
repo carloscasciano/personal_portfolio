@@ -70,7 +70,6 @@ export const PositionSkeleton = styled.div`
     justify-content: flex-start;
     align-items: flex-start;
     
-
     hr {
         width: 100%;
         margin: 10px 0 10px 0;
@@ -88,9 +87,20 @@ export const IconTextSkeleton = styled.div`
 
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     align-content: center;
     flex-wrap: nowrap;
+    
+    img {
+        margin: 4px;
+        margin-right: 15px;
+    }
+    
+    p {
+        margin: 0;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
 
 `
 

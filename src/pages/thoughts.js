@@ -15,7 +15,7 @@ export default () => (
           thoughtsData.map(data => 
               <PositionSkeleton key={Math.random()}>
                 <h5>{data.title}</h5>
-                <p>{data.type}</p>
+                
                   <IconTextSkeleton>
                     <img src={"../icons/calendar.png"} alt="date"/>
                     <p>{data.date}</p>

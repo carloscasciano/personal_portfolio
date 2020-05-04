@@ -181,7 +181,7 @@ export const thoughtsData = [
         title: "Tiny Helping is still helping",
         date: "May 2020",
         type: "resource",
-        information: "When building something, all the time you need a tiny something. A small JSON with data to test, a mock favicon, a quick regex or even some color samples too make things not that weird. I use this collection of sites and small apps from Tiny Helpers. A lot.",
+        information: "When building something, sometimes you need a tiny help. A small JSON with data to test, a mock favicon, a quick regex or even some color samples to make things not that weird. I use this collection of sites and small apps from Tiny Helpers. A lot.",
         link: "https://tiny-helpers.dev/javascript/",
 
     },
@@ -189,7 +189,7 @@ export const thoughtsData = [
         title: "Building Custom Components from scratch with React + Styled Components",
         date: "Apr 2020",
         type: "blog post",
-        information: "Componentization is the way of the web to repeat itself in a easy way. If you are versed in the ways of data structures and organizatio, a good JSON and a 'map()' can make you wonders! I made this tutorial more about the thought process and some tools I use to build custom components.",
+        information: "Componentization is the way of the web to repeat itself in a easy way. If you are versed in the ways of data structures and organization, a good JSON and a 'map()' can make you wonders! I made this tutorial more about the thought process and some tools I use to build custom components.",
         link: "https://medium.com/@carlos.casciano/building-custom-components-from-scratch-with-react-styled-components-f878dd9c462e",
 
     },

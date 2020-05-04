@@ -15,7 +15,7 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
     },
     'h4': {
         fontSize: "1.8rem",
-        marginBottom: "2rem",
+        marginBottom: "1.5rem",
         marginTop: "2rem",
         textAlign: "center",
     },
