@@ -2,10 +2,15 @@ import Typography from 'typography'
 import moragaTheme from 'typography-theme-moraga'
 
 moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
-    'a, h2': {
-      margin: "0px",
+    'a': {
+        margin: "0px",
+    },
+    'a:hover': {
+        textDecoration: "none",
+        
     },
     'h2': {
+        margin: "0px",
         fontWeight: "200"
     },
     'h4': {
@@ -43,8 +48,6 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
         height: "18px",
         margin: "5px"
     }
-
-
 
   })
 

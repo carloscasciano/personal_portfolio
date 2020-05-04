@@ -7,7 +7,9 @@ export default function Header() {
     return (
         <div>
             <HeaderMainSkeleton>
-                <h2>Carlos Casciano</h2>
+                <Link to="/">
+                    <h2>Carlos Casciano</h2>
+                </Link>
                 <HeaderLinksSkeleton>
                     <Link to="/cv/">Resume</Link>
                     <Link to="/portfolio/">Portfolio</Link>
