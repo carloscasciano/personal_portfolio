@@ -29,17 +29,23 @@ export const HeaderMainSkeleton = styled.div`
 
 export const HeaderLinksSkeleton = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
     align-items: center;
 
     a {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     @media (min-width: 415px) {
-        flex-direction: row;       
+        flex-direction: row;   
+        padding-top: 10px;
+        
+        a {
+            font-size: 1rem;
+        }
+
       }
 `
 
