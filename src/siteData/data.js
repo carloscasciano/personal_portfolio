@@ -1,9 +1,9 @@
 export const siteData = [
     [
         {
-            position: "Independent Consultant / Developer",
+            position: "Software Developer",
             date: "2020",
-            company: "self",
+            company: "Independent",
             companyLink: "",
             perks: [
                 "Code on top technologies to deliver good products and applications.",
@@ -11,20 +11,20 @@ export const siteData = [
             ]
         },
         {
-            position: "Technology / Operations Manager",
+            position: "Development / Operations Manager",
             date: "2017 - 2020",
             company: "ContaAzul",
             companyLink: "www.contaazul.com",
             perks: [
-                "Led analysts and developers on internal products development and decisions.",
+                "Led analysts and developers on internal products development and decision making processes.",
                 "Worked as mentor for data analysis, problem solving and leadership.",
                 "Delivered solutions that significantly increased customer engagement and adoption.",
             ]
         },
         {
-            position: "Independent Consultant / Developer",
+            position: "Software Developer",
             date: "2016",
-            company: "self",
+            company: "Independent",
             companyLink: "",
             perks: [
                 "Developed web applications to improve processes and decision making for small and medium companies.",

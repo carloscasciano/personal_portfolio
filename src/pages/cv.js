@@ -18,13 +18,16 @@ export default () => (
       {
         siteData[0].map(info =>           
           <PositionSkeleton key={Math.random()}>
-          <div style={{display:"flex", alignItems: "center", marginBottom: "10px"}}><h5>{info.position}</h5> <p>{"  "} {info.company}, {info.date}</p></div>
+          <h5>{info.position}</h5>
+          <p>{"  "} {info.company}, {info.date}</p>
+          
           <ul>
             {
               info.perks.map(perk => <li key={Math.random()}>{perk}</li>)
             }
           </ul>
           <hr/>
+          <br/>
         </PositionSkeleton>
                 
           )
