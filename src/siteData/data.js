@@ -178,10 +178,18 @@ export const portfolioData = [
 
 export const thoughtsData = [
     {
+        title: "Tiny Helping is still helping",
+        date: "May 2020",
+        type: "resource",
+        information: "When building something, all the time you need a tiny something. A small JSON with data to test, a mock favicon, a quick regex or even some color samples too make things not that weird. I use this collection of sites and small apps from Tiny Helpers. A lot.",
+        link: "https://tiny-helpers.dev/javascript/",
+
+    },
+    {
         title: "Building Custom Components from scratch with React + Styled Components",
         date: "Apr 2020",
         type: "blog post",
-        information: "A tutorial I wrote on the process of building and using custom components",
+        information: "Componentization is the way of the web to repeat itself in a easy way. If you are versed in the ways of data structures and organizatio, a good JSON and a 'map()' can make you wonders! I made this tutorial more about the thought process and some tools I use to build custom components.",
         link: "https://medium.com/@carlos.casciano/building-custom-components-from-scratch-with-react-styled-components-f878dd9c462e",
 
     },
@@ -189,29 +197,36 @@ export const thoughtsData = [
         title: "Repl.it",
         date: "Apr 2020",
         type: "resources",
-        information: "Web based site to compile different languages.",
+        information: "Sometimes we want to quick test some code without basic set-up. I do it all the time with python, just to prove my (generally wrong) point of view on simplicity among languages. I use this guy a lot, it is quick and fun to use.",
         link: "https://repl.it/languages",
     },
     {
         title: "Clicker Game + Redux",
         date: "Apr 2020",
         type: "blog post",
-        information: "Redux tutorial I wrote.",
+        information: "Always thought about state managament and all the mistakes with renders and data updates I made when learning React. Is the Redux the proper way to go to be more organized? Honestly, I don't think so, but learning Redux is important. Many project uses it and when you get the essence, it is actually quite fun to work with. I'm playing a lot with management games recently and decided to wrote this tutorial of a simple clicker game with Redux. (Don't use Redux!)",
         link: "https://medium.com/@carlos.casciano/clicker-game-project-with-react-and-redux-9c6c9d169579",
     },
     {
         title: "CSS Flex Cheat Sheet",
         date: "Mar 2020",
         type: "resources",
-        information: "I've been using this cheat sheet a lot, it is pretty good, specially the auto copy for code.",
+        information: "My go-to cheat sheet when dealing with CSS flex.",
         link: "http://flexbox.malven.co/",
     },
     {
         title: "About DOM Manipulation",
         date: "Mar 2020",
         type: "resources",
-        information: "Methods for DOM manipulation, useful.",
+        information: "'Old' web used this a lot. 'New' web kinda of builds on top of these techniques. A good reading.",
         link: "https://www.hongkiat.com/blog/dom-manipulation-javascript-methods/",
+    },
+    {
+        title: "Complete guide to building product tours on your React apps",
+        date: "Mar 2020",
+        type: "resources",
+        information: "Many many MANY times I've had business and product problems based on bad user onboarding. Sometimes we are so imersed in our product that it feels obvious to us, but for a new user is complicated as f$@#. UI onboarding must be used with caution, but when designed with care. It can be a really powerful tool. ",
+        link: "https://dev.to/bnevilleoneill/complete-guide-to-building-product-tours-on-your-react-apps-4e6i",
     },
     {
         title: "Firebase + React authentication",
@@ -224,15 +239,22 @@ export const thoughtsData = [
         title: "Remote Work and Productivity",
         date: "Feb 2020",
         type: "article",
-        information: "Good article on remote work.",
+        information: "Remote work is something that I've studied and put it on practice with many of my teams. Our industry has the privilege to open up theis path to others. Let us use it, but don't forget about real human interactions. Join your team in person from time to time.",
         link: "https://doist.com/blog/asynchronous-communication/",
     },
     {
         title: "Modern JS",
         date: "Jan 2020",
-        type: "article collection",
-        information: "Great source for basic and modern JS.",
+        type: "resources",
+        information: "Great source for basic and modern JS, after mozilla DOCS and Stack Overflow, probably my main page to use.",
         link: "https://javascript.info/",
+    },
+    {
+        title: "Explore music with Every Noise",
+        date: "Jan 2020",
+        type: "fun",
+        information: "I listen to a lot of music, as many of us. Spotify is my weapon of choice, but sometimes I want to get out of it algorithm and explore artists on myself. This Every Noise place helps in 'I need to concentrate' moments or even in the 'Man, feels like going down the rabbit hole today'. Use it, super fun and technically beautifull organized.",
+        link: "http://everynoise.com/",
     },
     
 ]
