@@ -26,8 +26,10 @@ export default () => (
               info.perks.map(perk => <li key={Math.random()}>{perk}</li>)
             }
           </ul>
+          
           <hr/>
           <br/>
+          
         </PositionSkeleton>
                 
           )

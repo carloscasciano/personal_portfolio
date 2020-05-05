@@ -32,7 +32,8 @@ export default () => (
                     <img src={"../icons/github.png"} alt="github"/>
                     <a href={data.projectGitHubLink} target="_blank" rel="noopener noreferrer"><p>Code</p></a>
                   </IconTextSkeleton>
-                  <hr/>              
+                  <hr/>      
+                  <br/>        
               </PositionSkeleton>
             )
         }

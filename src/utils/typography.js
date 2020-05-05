@@ -7,12 +7,16 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
     },
     'a:hover': {
         textDecoration: "none",
-        
     },
     'h2': {
         margin: "0px",
-        fontWeight: "200"
+        fontWeight: "200",
+        fontSize: "2rem"
     },
+    'h2:hover': {
+        color:"gray",
+    },
+
     'h4': {
         fontSize: "1.8rem",
         marginBottom: "1.5rem",
@@ -50,6 +54,8 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
     },
     'i': {
         textAlign: "justify",
+        color: "gray",
+        fontSize: "0.9rem"
 
     }
 

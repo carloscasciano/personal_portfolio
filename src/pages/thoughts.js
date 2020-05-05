@@ -8,7 +8,7 @@ export default () => (
   <div>
     <Header/>
     <PageMainSkeleton>
-      <h4>Thoughts, Feelings, Friendly Links & Others</h4>
+      <h4>Thoughts, Feelings & Friendly Links</h4>
 
       <BlockSkeleton>
         {
@@ -32,7 +32,8 @@ export default () => (
                       </IconTextSkeleton>
                     }
       
-                  <hr/>              
+                  <hr/>     
+                  <br/>         
               </PositionSkeleton>
             )
         }

@@ -11,7 +11,7 @@ export default function Header() {
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Carlos Casciano Portfolio</title>
-                    <link rel="canonical" href="http://mysite.com/example" />
+                    <link rel="canonical" href="https://carlos-casciano.netlify.app/" />
                 </Helmet>
 
                 <Link to="/">

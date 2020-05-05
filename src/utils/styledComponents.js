@@ -130,12 +130,11 @@ export const FooterSkeleton = styled.div`
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
+    margin-top: 200px;
 
     hr{
-        margin-top: 100px;
-        margin-bottom: 25px;
+       margin-bottom: 10px;
     }
-
 `
 
 export const Error404Skeleton = styled.div`
@@ -150,4 +149,5 @@ export const QuoteSkeleton = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 `

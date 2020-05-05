@@ -25,7 +25,7 @@ export default () =>
                 <br/>
                 <QuoteSkeleton>
                     <p><i>"{bioData.bioCatchPhrase}"</i></p>
-                    <p>{bioData.bioAuthor} </p>
+                    <p><i>{bioData.bioAuthor} </i></p>
                 </QuoteSkeleton>
                 
 

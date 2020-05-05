@@ -128,8 +128,8 @@ export const portfolioData = [
         projectName: "Personal Portfolio",
         projectMainInfo: "This website!",
         projectTech: "React, Gatsby, Typograhy.js, Styled Components",
-        projectDemoLink: "",
-        projectGitHubLink: ""
+        projectDemoLink: "https://carlos-casciano.netlify.app/",
+        projectGitHubLink: "https://github.com/carloscasciano/personal_portfolio"
     }, 
     {
         projectName: "Building Custom Components",
