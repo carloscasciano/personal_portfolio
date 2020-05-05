@@ -16,7 +16,7 @@ export const HeaderMainSkeleton = styled.div`
         margin: 0 10px 0 10px;
     }
 
-    @media (min-width: 415px) {
+    @media (min-width: 700px) {
         flex-direction: row;
 
         h2 {
@@ -39,7 +39,7 @@ export const HeaderLinksSkeleton = styled.div`
         font-size: 0.8rem;
     }
 
-    @media (min-width: 415px) {
+    @media (min-width: 700px) {
         flex-direction: row;   
         padding-top: 10px;
         
@@ -57,7 +57,7 @@ export const PageMainSkeleton = styled.div`
     flex-direction: column;
     justify-content: flex-start;
 
-    @media (min-width: 415px) {
+    @media (min-width: 700px) {
         width: 50%;
       }
     
@@ -119,7 +119,7 @@ export const ContactCardSkeleton = styled.div`
     align-content: center;
     justify-content: center;
 
-    @media (min-width: 415px) {
+    @media (min-width: 700px) {
         flex-direction: row;
       }
 
