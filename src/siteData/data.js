@@ -178,6 +178,14 @@ export const portfolioData = [
 
 export const thoughtsData = [
     {
+        title: "Practical tips with Kanban",
+        date: "May 2020",
+        type: "article",
+        information: "I worked with Kanban in many projects. Thinking about all the good results (and trouble) my teams had, I decided to write this text to (maybe) help others on the same path.",
+        link: "https://www.linkedin.com/pulse/practical-experience-using-kanban-carlos-casciano",
+
+    },
+    {
         title: "Tiny Helping is still helping",
         date: "May 2020",
         type: "resource",
