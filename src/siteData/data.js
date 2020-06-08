@@ -199,6 +199,22 @@ export const portfolioData = [
 
 export const thoughtsData = [
   {
+    title: "One on Wonder Launch",
+    date: "June 2020",
+    type: "article",
+    information: "Built One on Wonder tool as a helper for managers, this article explain the main motivators (sorry, it is in portuguese, but the portfolio area contains more info).",
+    link:
+      "https://www.linkedin.com/pulse/lan%25C3%25A7amento-one-wonder-carlos-casciano/",
+  },
+  {
+    title: "Flex Zombies",
+    date: "June 2020",
+    type: "resource",
+    information: "Heard about Mastery Games at the React Podcast, this Flexbox Zombies game is fun and REALLY instructional. Loved it. The also have a cool Grid game that I'll be trying soon.",
+    link:
+      "https://mastery.games/flexboxzombies/",
+  },
+  {
     title: "Practical tips with Kanban",
     date: "May 2020",
     type: "article",

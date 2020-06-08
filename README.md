@@ -1,5 +1,5 @@
 ### Carlos Casciano Portfolio
 
-This is the code to my personal portfolio, you can find the demo here: https://carlos-casciano.netlify.app/
+This is the code to my personal portfolio, you can find the demo here: https://carloscasciano.com
 
-Any questions or suggestion, let me know.
+Any questions or suggestions, let me know!
