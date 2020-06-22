@@ -199,6 +199,14 @@ export const portfolioData = [
 
 export const thoughtsData = [
   {
+    title: "Beautiful Hooks",
+    date: "June 2020",
+    type: "resource",
+    information: "I've been testing and playing with this really useful custom hooks for React. Easy and great documentation. I'll try to use them in some project soon.",
+    link:
+      "https://github.com/beautifulinteractions/beautiful-react-hooks",
+  },
+  {
     title: "One on Wonder Launch",
     date: "June 2020",
     type: "article",
