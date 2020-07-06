@@ -199,6 +199,14 @@ export const portfolioData = [
 
 export const thoughtsData = [
   {
+    title: "Frontend Mentor",
+    date: "July 2020",
+    type: "resource",
+    information: "Found out about this tool, great exercises, did the first one just for fun, tried to be as fast as possible (took me around 3 hours to finish). The question and answers are on the repository below.",
+    link:
+      "https://github.com/carloscasciano/article_preview_component",
+  },
+  {
     title: "Beautiful Hooks",
     date: "June 2020",
     type: "resource",
