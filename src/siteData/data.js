@@ -138,6 +138,14 @@ export const portfolioData = [
     projectGitHubLink: "https://github.com/carloscasciano/one_on_wonder_webapp",
   },
   {
+    projectName: "Static Job Listings",
+    projectMainInfo:
+      "This is a challenge from Frontend Mentors, where a design is provided and you build it with your chosen tools.",
+    projectTech: "React, Styled Components and lots of CSS",
+    projectDemoLink: "https://ccasci-static-job-listings.netlify.app/",
+    projectGitHubLink: "https://github.com/carloscasciano/static-jobs-listing",
+  },
+  {
     projectName: "Building Custom Components Article & Project",
     projectMainInfo:
       "Tutorial on how to create custom components from paper (or design based) to be re-used the way your needs desires. Link for tutorial on github.",
@@ -202,23 +210,24 @@ export const thoughtsData = [
     title: "Frontend Mentor",
     date: "July 2020",
     type: "resource",
-    information: "Found out about this tool, great exercises, did the first one just for fun, tried to be as fast as possible (took me around 3 hours to finish). The question and answers are on the repository below.",
-    link:
-      "https://github.com/carloscasciano/article_preview_component",
+    information:
+      "Found out about this tool, great exercises, did the first one just for fun, tried to be as fast as possible (took me around 3 hours to finish). The question and answers are on the repository below.",
+    link: "https://github.com/carloscasciano/article_preview_component",
   },
   {
     title: "Beautiful Hooks",
     date: "June 2020",
     type: "resource",
-    information: "I've been testing and playing with this really useful custom hooks for React. Easy and great documentation. I'll try to use them in some project soon.",
-    link:
-      "https://github.com/beautifulinteractions/beautiful-react-hooks",
+    information:
+      "I've been testing and playing with this really useful custom hooks for React. Easy and great documentation. I'll try to use them in some project soon.",
+    link: "https://github.com/beautifulinteractions/beautiful-react-hooks",
   },
   {
     title: "One on Wonder Launch",
     date: "June 2020",
     type: "article",
-    information: "Built One on Wonder tool as a helper for managers, this article explain the main motivators (sorry, it is in portuguese, but the portfolio area contains more info).",
+    information:
+      "Built One on Wonder tool as a helper for managers, this article explain the main motivators (sorry, it is in portuguese, but the portfolio area contains more info).",
     link:
       "https://www.linkedin.com/pulse/lan%25C3%25A7amento-one-wonder-carlos-casciano/",
   },
@@ -226,9 +235,9 @@ export const thoughtsData = [
     title: "Flex Zombies",
     date: "June 2020",
     type: "resource",
-    information: "Heard about Mastery Games at the React Podcast, this Flexbox Zombies game is fun and REALLY instructional. Loved it. The also have a cool Grid game that I'll be trying soon.",
-    link:
-      "https://mastery.games/flexboxzombies/",
+    information:
+      "Heard about Mastery Games at the React Podcast, this Flexbox Zombies game is fun and REALLY instructional. Loved it. The also have a cool Grid game that I'll be trying soon.",
+    link: "https://mastery.games/flexboxzombies/",
   },
   {
     title: "Practical tips with Kanban",
