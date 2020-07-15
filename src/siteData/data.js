@@ -138,9 +138,17 @@ export const portfolioData = [
     projectGitHubLink: "https://github.com/carloscasciano/one_on_wonder_webapp",
   },
   {
-    projectName: "Static Job Listings",
+    projectName: "Social Media Sample Dashboard",
     projectMainInfo:
       "This is a challenge from Frontend Mentors, where a design is provided and you build it with your chosen tools.",
+    projectTech: "React, Styled Components and lots of CSS",
+    projectDemoLink: "https://ccasci-socialmedia-dashboard.netlify.app/",
+    projectGitHubLink: "https://github.com/carloscasciano/social_media_dashboard",
+  },
+  {
+    projectName: "Static Job Listings",
+    projectMainInfo:
+      "This is another challenge from Frontend Mentors, where a design is provided and you build it with your chosen tools.",
     projectTech: "React, Styled Components and lots of CSS",
     projectDemoLink: "https://ccasci-static-job-listings.netlify.app/",
     projectGitHubLink: "https://github.com/carloscasciano/static-jobs-listing",
