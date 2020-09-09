@@ -1,48 +1,56 @@
 export const siteData = [
   [
     {
-      position: "Operations and Technology Manager at ContaAzul",
-      date: "Jan/2017 - Jan/2020",
+      position: "Software Developer",
+      date: "2020",
+      company: "Independent",
+      companyLink: "",
+      perks: [
+        "Code on top technologies to deliver good products and applications.",
+        "Provide solutions to companies based on years of experience in different fields.",
+      ],
+    },
+    {
+      position: "Development / Operations Manager",
+      date: "2017 - 2020",
       company: "ContaAzul",
       companyLink: "www.contaazul.com",
       perks: [
-        "Responsible for the complete lifecycle of multidisciplinary and cross-functional products that aimed for better customer retention and attraction.",
-        "Managed roadmaps with deep understanding of business and stakeholders needs using Agile techniques like Scrum and Kanban. Internal advisor for data-driven prioritizations focused on customer and user experience.",
-        "Launched data science products aimed to increase customer understanding, product market fit and GTM.",
-        "Hands on decision maker on Strategic Plans and processes advisor. Produced and made decisions based on KPIs and metrics.",
-        "Lectured hundreds of employees on Customer Experience, Product Lifecycle and Problem Solving.",
-        "During this period, managed 10 coordinators, 56 customer reps and 15 developers/analysts local and remote."
+        "Led analysts and developers on internal products development and decision making processes.",
+        "Worked as mentor for data analysis, problem solving and leadership.",
+        "Delivered solutions that significantly increased customer engagement and adoption.",
       ],
     },
     {
-      position: "Entrepreneur",
-      date: "Jan/2016 - Jan/2017",
-      company: "Consulting Firm and Agapi",
+      position: "Software Developer",
+      date: "2016",
+      company: "Independent",
       companyLink: "",
       perks: [
-        "Launched and managed a product from scratch, focused on data integration and processes making for SMBs.",
-        "Built small products with JavaScript that handled different SaaS integrations and lots of REST APIs handling. ",
-        "Produced consulting material for CRMs structure and better processes enhancement.",
+        "Developed web applications to improve processes and decision making for small and medium companies.",
+        "Connected vital information via data integrations.",
+        "Managed projects, from idealization to execution.",
       ],
     },
     {
-      position: "Operations Manager",
-      date: "Apr/2013 - Jan/2016",
+      position: "Operations / Product Manager",
+      date: "2013 - 2015",
       company: "Runrun.it",
-      companyLink: "",
+      companyLink: "www.runrun.it",
       perks: [
-        "Responsible for growth and retention from startup to scaleup stage. Outstanding results with acquisition - multi thousands customers- and healthy churn results compared to similar companies.",
-        "Built funnel processes from Marketing, Acquisition, Retention and Churn handling different CRMs, APIs and data-driven analysis. Acted as customer voice for product and developers.",
+        "Worked as customer voice for product decisions, outstanding results on growth and retention.",
+        "Built all CRM architecture, processes and integrations.",
+        "Wrote several articles and courses regarding plataform content.",
       ],
     },
     {
       position: "Product Analyst",
-      date: "Dec/2011 - Mar/2013",
+      date: "2011 - 2013",
       company: "P&G Gillette",
       companyLink: "www.gillette.com",
       perks: [
-        "Performed technical and business analysis with VBA and Excel that led to product decision making.",
-        "Managed small and medium advertising projects that achieved millions of web views.",
+        "Managed different digital marketing campaigns with advertising agencies.",
+        "Participated actively in multi million views ads.",
       ],
     },
   ],
@@ -50,7 +58,7 @@ export const siteData = [
     {
       skillTitle: "Tech Stack",
       skillSet: [
-        "Python (Analytics Libraries), SQL, BI, JavaScript, React, Node.js, HTML/CSS.",
+        "JavaScript, React, Node.js, Express, REST, Gatsby, GraphQL, Git, SQL, HTML, CSS, Saas, Python.",
       ],
     },
     {
@@ -135,8 +143,7 @@ export const portfolioData = [
       "This is a challenge from Frontend Mentors, where a design is provided and you build it with your chosen tools.",
     projectTech: "React, Styled Components and lots of CSS",
     projectDemoLink: "https://ccasci-socialmedia-dashboard.netlify.app/",
-    projectGitHubLink:
-      "https://github.com/carloscasciano/social_media_dashboard",
+    projectGitHubLink: "https://github.com/carloscasciano/social_media_dashboard",
   },
   {
     projectName: "Static Job Listings",
@@ -350,9 +357,10 @@ export const contactData = {
 }
 
 export const bioData = {
-  bioCatchPhrase: "The cave you fear to enter holds the treasure you seek.",
-  bioAuthor: "Joseph Campbell",
-  bioP1: `Hi, I'm Carlos! I'm a tech professional with years of experience in this industry.`,
-  bioP2: `Always living in intersections, I worked in subjects like data analysis and software development to business, product management and art. I also mentor young managers and have a million side projects that you might someday know about.`,
-  bioP3: `What makes me glad is helping people, coding and solving problems. If you think I could help you (or you could help me), let's have a virtual coffee!`,
+  bioCatchPhrase: "The soul becomes dyed with the color of its thoughts.",
+  bioAuthor: "Marcus Aurelius",
+  bioP1: `Hi, I'm Carlos! Right now I'm focused on personal projects and looking for remote positions as software developer.`,
+  bioP2: `I've been working in tech companies for a while. Always living in intersections, I have some experience in everything from data analysis and software development to business, product management and art.`,
+  bioP3: `In other times I developed and designed solutions for small and medium companies, managed teams of different scopes, started a company, and dealt with problems of different sizes and complexity.`,
+  bioP4: `What makes me glad is helping people, coding and solving problems. If you think I could help you, let's have a virtual coffee!`,
 }

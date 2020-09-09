@@ -19,7 +19,6 @@ export default function Header() {
                 </Link>
                 <HeaderLinksSkeleton>
                     <Link to="/cv/">Resume</Link>
-                    <Link to="/portfolio/">Portfolio</Link>
                     <Link to="/thoughts/">Thoughts & Feelings</Link>
                     <Link to="/contact/">Contact</Link>
                 </HeaderLinksSkeleton>
